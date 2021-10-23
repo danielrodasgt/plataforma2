@@ -1,0 +1,75 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Plataforma EduKids";
+}
+
+<!DOCTYPE html>
+<html style="font-size: 16px;">
+    <head>
+        <style>
+            .mainmenubtn {
+                background-color: skyblue;
+                color: white;
+                border: none;
+                cursor: pointer;
+                padding: 20px;
+                margin-top: 20px;
+            }
+
+                .mainmenubtn:hover {
+                    background-color: blue;
+                }
+
+            .dropdown {
+                position: relative;
+                display: inline-block;
+            }
+
+            .dropdown-child {
+                display: none;
+                background-color: skyblue;
+                min-width: 200px;
+            }
+
+                .dropdown-child a {
+                    color: blue;
+                    padding: 20px;
+                    text-decoration: none;
+                    display: block;
+                }
+
+            .dropdown:hover .dropdown-child {
+                display: block;
+            }
+        </style>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="utf-8">
+        <meta name="description" content="">
+        <meta name="page_type" content="np-template-header-footer-from-plugin">
+        <title>Principal</title>
+        <link rel="stylesheet" href="nicepage.css" media="screen">
+        <link rel="stylesheet" href="Principal.css" media="screen">
+        <script class="u-script" type="text/javascript" src="jquery.js" defer=""></script>
+        <script class="u-script" type="text/javascript" src="nicepage.js" defer=""></script>
+        <meta name="generator" content="Nicepage 3.28.7, nicepage.com">
+        <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i">
+
+        <meta name="theme-color" content="#478ac9">
+        <meta property="og:title" content="Principal">
+        <meta property="og:type" content="website">
+    </head>
+    
+    <body>              
+        <div class="dropdown">                
+            <button class="mainmenubtn">Menu Principal</button><li class=" odd">
+                <div class="dropdown-child">
+                <a href="http://wwww.tudominio.com/page1.html">Actividades</a>
+                <a href="http://wwww.tudominio.com/page2.html">Reportes</a>
+                <a href="http://wwww.tudominio.com/page3.html">FAQ</a>
+                <a href="http://wwww.tudominio.com/page4.html">Contacto</a>
+            </div>
+        </div>        
+    </body>
+
+</html>
